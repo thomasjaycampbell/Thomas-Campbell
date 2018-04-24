@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thomas' Code Samples</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+    <div id="navbar"></div>
+        <script>
+            $(function () {
+                $("#navbar").load("navbar.html");
+            });
+        </script>
+
+    <div class="content">
+
+    <h1 class="title">Coding Samples</h1>
+        
+    <div class="ex">
+
+                <div id="clickme1">
+                    <img src="/images/downArrow.jpg">
+                    <h3>JavaScript</h3>
+                </div>
+                    <div id="sample1">    
+                        <p>This is a contact form with color coded validation feedback.</p>             
+                    <img src="/images/js.jpg" alt="JavaScript Validation" width=30%>
+                    
+                    <div class="code">
+    <xmp>
+    var email = document.getElementById('emailAddress')
+    email.oninvalid = function(e) {
+        e.target.setCustomValidity("");
+        if (e.target.validity.valid == false) {
+            if (e.target.value.length == 0) {
+                e.target.setCustomValidity("Email is required.");
+            } else {
+                e.target.setCustomValidity("Please enter a valid email address."); 
+            }
+        }
+    };
+    </xmp>
+                    </div>
+    
+                     </div>
+    </div>
+    
+        <div class="ex">
+            <div id="clickme2">
+                <img src="/images/downArrow.jpg">
+                <h3>CSS</h3>
+            </div>
+            
+                <div id="sample2">
+                    <p>This is a sample registration form with some custom styling.</p>
+                    <img src="/images/registration.jpg" alt="Registration Form Screenshot" width=20%>
+                    <div class="code">
+<xmp>
+body {
+    background: linear-gradient(#450796, white);
+    color:white;
+    font-family:"Arial Black";
+    }
+                            
+form {
+    font-family:helvetica;
+    background-color:rgba(196, 177, 221, 0.4);
+    color:white;
+    padding-top:.5%;
+    padding-left:2%;
+    padding-bottom:3%;
+    margin-bottom:2%;
+    width:97%;
+    border-radius:1em;
+    }
+                            
+.validated:invalid {
+    background:rgb(247, 188, 195);
+    }
+                            
+.validated:valid {
+    background:#BDF0A8;
+    }
+                            
+.formRow {
+    margin-bottom:3%;
+    }
+                            
+.buttonHolder {
+    margin-top:10%;
+    margin-bottom:5%;
+    text-align:center;
+    }
+                            
+#submit {
+    font-size:1.5em;
+    color:black;
+    border:1px solid;
+    }
+                            
+#footer {
+    font-size: .75em;
+    font-family: helvetica;
+    bottom: 0px;
+    width: 98%;
+    text-align: center;
+    background-color:#450796;
+    padding-top:1.5%;
+    padding-left:2%;
+    padding-bottom:3%;
+    margin-bottom:2%;
+    border-radius:1em;
+    margin-top:2%;
+    }
+</xmp>
+
+                    </div>
+                 </div>
+        </div>
+  
+        
+        <div class="ex">
+            <div id="clickme3">
+                <img src="/images/downArrow.jpg">
+                <h3>C#</h3>
+            </div>
+                <div id="sample3">                
+                <img src="/images/c#.jpg" alt="C# Example" width=30%>
+                
+                <div class="code">
+<xmp>
+
+</xmp>
+                </div>
+
+                 </div>
+        </div>
+       
+
+     <div id="footerAtBottomId">
+        </div>
+<script>
+    $( "#clickme1" ).click(function() {
+        $( "#sample1" ).toggle( function() {
+        });
+    });
+
+    $( "#clickme2" ).click(function() {
+        $( "#sample2" ).toggle( function() {
+        });
+    });
+
+        $( "#clickme3" ).click(function() {
+        $( "#sample3" ).toggle( function() {
+        });
+    });
+
+    $(function () {
+        $("#footerAtBottomId").load("footer.html");
+    });
+</script>
+
+</body>
+
+</html>

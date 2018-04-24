@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Thomas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <div id="navbar">
+    </div>
+    <script>
+        $(function() {
+            $("#navbar").load("navbar.html");
+        });
+    </script>
+
+    <div class="content">
+
+        <h1 class="title"> About Thomas</h1>
+
+        <section class="blurb">
+            <div class="headshot">
+                <img src="/Images/cats.jpg" alt="Mike and El" width=40%>
+            </div>
+
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta mauris ut turpis ultricies, sit amet elementum justo convallis. Integer a justo porttitor, efficitur purus vitae, blandit enim. Mauris congue orci a viverra fermentum. Cras eget scelerisque tellus, vel posuere massa. Quisque vel lacinia nunc, id iaculis lacus. Proin a consequat quam. Duis lectus libero, euismod a mattis eu, volutpat vel libero.</p>
+
+            </div>
+        </section>
+
+        <div id="footerAtBottomId">
+        </div>
+        <script>
+            $(function() {
+                $("#footerAtBottomId").load("footer.html");
+            });
+        </script>
+    </div>
+
+</body>
+
+</html>

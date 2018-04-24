@@ -1,0 +1,200 @@
+.title {
+    padding-top:5%;
+    text-align:center;
+}
+
+.subtitle {
+    text-align:center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 0, 39);
+}
+
+.content {
+    padding-left:3%;
+    padding-right:3%;
+}
+
+div.code {
+    background-color: lightgrey;
+    width: 450px;
+    height: 300px;
+    overflow: scroll;
+    padding-top:1%;
+    padding-bottom:5%;
+    display:inline;
+    padding-right: 15%;
+    float: left;
+}
+
+div.ex {
+    display: block;
+    padding: 1%;
+    padding-bottom: 3%;
+}
+
+#about {
+    float: left;
+    display: block;
+}
+
+#aboutimage {
+    padding-right: 4%;
+}
+
+#sample1 {
+    display:none;
+}
+
+#sample2 {
+    display:none;
+}
+
+#sample3 {
+    display:none;
+}
+
+#footer_container {
+    padding-top:4%;
+    position: fixed;
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+
+}
+
+body {
+    background: linear-gradient(to right, #f3f7fc, #d2e7ff, #f3f7fc);
+}
+
+.footer {
+    background: linear-gradient(to right, #f3f7fc, #d2e7ff, #f3f7fc);
+
+}
+
+
+#clickme1 img {
+    float: left;
+    padding-right: 1%;
+    padding-top: .75%;
+    width: 30px;
+}
+
+#clickme1 h3 {
+   position: relative;
+}
+
+#clickme2 img {
+    float: left;
+    padding-right: 1%;
+    padding-top: .75%;
+    width: 30px;
+}
+
+#clickme2 h3 {
+   position: relative;
+}
+
+#clickme3 img {
+    float: left;
+    padding-right: 1%;
+    padding-top: .75%;
+    width: 30px;
+}
+
+#clickme3 h3 {
+   position: relative;
+}
+
+#resume {
+    width: 80%; 
+    height: 600px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+#about {
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#aboutimage {
+    display: block;
+    float: left;
+}
+
+#aboutcontent {
+    display: block;
+    width: 30%;
+    float: right;
+}
+
+#contact {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.blurb {
+    width: 100%;
+    display: inline-block;
+}
+
+.headshot{
+    display: block;
+    float: right;
+    padding-right: 1%;
+}
+
+.aboutContent {
+    display: block;
+    width: 45%;
+    padding-left: 20%;
+}
+
+.textcenter {
+    text-align: center;
+}

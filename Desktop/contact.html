@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Thomas' Contact Info</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+    <div id="navbar">
+    </div>
+    <script>
+        $(function() {
+            $("#navbar").load("navbar.html");
+        });
+    </script>
+
+    <div class="content">
+
+        <h1 class="title">Contact Info</h1>
+
+        <div id="contact">
+            <h4>You can find me on most social media</h4>
+            <a href="https://www.linkedin.com/in/thomasjaycampbell/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://www.facebook.com/thomasjaycampbell" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://twitter.com/thomasjayc" class="fa fa-twitter" target="_blank"></a>
+            <br>
+            <br>
+            <p>Or feel free to reach out by <a href="mailto:thomasjaycampbell@gmail.com?Subject=Hello!">e-mail!</a> </p>
+        </div>
+
+        <div id="footerAtBottomId">
+        </div>
+        <script>
+            $(function() {
+                $("#footerAtBottomId").load("footer.html");
+            });
+        </script>
+
+</body>
+
+</html>

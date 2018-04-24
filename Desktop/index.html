@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Thomas Campbell - Web Developer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <div id="navbar">
+    </div>
+    <script>
+        $(function() {
+            $("#navbar").load("navbar.html");
+        });
+    </script>
+
+    <div class="content">
+
+        <h1 class="title"><strong>Thomas Campbell</strong></h1>
+        <h3 class="subtitle"> Web Developer</h3>
+
+        <section class="blurb">
+            <div class="headshot">
+                <img src="/Images/headshot2.jpg" alt="Head Shot" width=55%>
+            </div>
+
+            <div class="aboutContent">
+                <p> Welcome! Take a look around my portfolio. You can learn a bit about me, see some code I've worked on, read my resume, and find links to my social media and e-mail. Please reach out with any questions!
+                </p>
+
+            </div>
+        </section>
+
+    </div>
+
+    <div id="footerAtBottomId">
+    </div>
+    <script>
+        $(function() {
+            $("#footerAtBottomId").load("footer.html");
+        });
+    </script>
+</body>
+
+</html>

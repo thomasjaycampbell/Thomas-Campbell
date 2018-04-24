@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Thomas Campbell</title>
+
+<script>
+    function LoadPage() {
+        if (screen.width < 768) {
+        window.location.replace("mobile/index.html");
+        }
+        else  {
+        window.location.replace("desktop/index.html");
+        }
+}
+
+</script>
+
+</head>
+
+<body onload="javascript:LoadPage();">
+</body>
+</html>
